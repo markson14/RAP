@@ -11,7 +11,7 @@ import page from '../mds/md.mdx';
         <div style="display: flex; justify-content: center; margin-bottom: 24px;">
             <el-image 
                 src="./模型图_0802_1830.png" 
-                style="max-width: 60vw; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);"
+                style="max-width: 60vw; width: 1315px; height: auto; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);"
                 fit="contain"
             />
         </div>
