@@ -1,14 +1,11 @@
 <script>
 
-import Header from './components/Header.vue'
+// import Header from './components/Header.vue'
 import Main from './components/Main.vue'
-import Footer from './components/Footer.vue'
 
 export default {
   components: {
-    Header,
     Main,
-    Footer,
   }
 }
 
@@ -18,9 +15,7 @@ export default {
     <div>
       
       <el-container>
-        <el-header><Header/></el-header>
         <el-main><Main/></el-main>
-        <el-footer><Footer/></el-footer>
       </el-container>
       
       <!-- 回到顶部 -->

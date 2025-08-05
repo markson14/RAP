@@ -20,32 +20,32 @@ import GaussianSplats3D from './sections/GaussianSplats3D.vue'
 export default {
   components: {
     Title,
+    // Latex,
     Abstract,
     Markdown,
-    BibTeX,
     Carousel,
+    // BibTeX,
     Video,
-    ImageSlider,
-    ImageSliderInner,
-    ImageSelector,
-    Echart,
-    Collapse,
-    Table,
-    SeletionForComparison,
-    Comment,
-    Latex,
-    Model3D,
-    GaussianSplats3D
+    // ImageSlider,
+    // ImageSliderInner,
+    // ImageSelector,
+    // Echart,
+    // Collapse,
+    // Table,
+    // SeletionForComparison,
+    // Comment,
+    // Model3D,
+    // GaussianSplats3D
   }
 }
 </script>
 
 <template>
   <Title/>
-  <Carousel/>
-  <Video/>
   <Abstract/>
   <Markdown/>
+  <Carousel/>
+  <Video/>
   <Latex/>
   <Table/>
   <Collapse/>

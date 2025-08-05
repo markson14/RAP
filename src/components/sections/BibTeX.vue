@@ -3,11 +3,11 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
-        "    journal={GitHub},",
-        "    year={2023}",
+        "@article{du2025rap,",
+        "    title={RAP: Real-time Audio-driven Portrait Animation with Video Diffusion Transformer},",
+        "    author={Du, Fangyu and Li, Taiqing and Zhang, Ziwei},",
+        "    journal={arXiv preprint arXiv:2507.10000},",
+        "    year={2025}",
         "}",
       ],
     }
