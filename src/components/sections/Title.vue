@@ -124,7 +124,7 @@ const buttons = [
   {
     disabled: false,
     name: "Arxiv",
-    link: "https://arxiv.org/abs/2508.01600",
+    link: "https://arxiv.org/pdf/2508.05115",
     component: Document,
   },
   // {

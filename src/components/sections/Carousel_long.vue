@@ -20,10 +20,10 @@ export default {
       ],
       // 选择要轮播的视频
       video_paths: [
-        "./videos/20250805-100055.957-0.mp4",
-        "./videos/20250805-100055.957-1.mp4",
-        "./videos/20250805-100055.957-2.mp4",
-        "./videos/20250805-100055.957-3.mp4",
+        "/RAP/public/videos/20250805-100055.957-0.mp4",
+        "/RAP/public/videos/20250805-100055.957-1.mp4",
+        "/RAP/public/videos/20250805-100055.957-2.mp4",
+        "/RAP/public/videos/20250805-100055.957-3.mp4",
       ],
     }
   }
@@ -32,9 +32,9 @@ export default {
 
 <template>
   <el-divider />
-  <h1>Demo</h1>
+  <h1>Long Video Generation</h1>
   <el-row justify="center">
-    <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
+    <el-col :xs="24" :sm="20" :md="16" :lg="10" :xl="10">
       <!-- 设置轮播图：循环播放、首张图序号、响应式、导航和分页、自动播放 -->
       <swiper
         :loop="true"

@@ -17,16 +17,21 @@ const videos = [
       <h1 class="section-title">Qualitative Comparison</h1>
     </el-row>
 
+    <el-row :gutter="20" justify="center">
+      <el-col :xs="24" :sm="20" :md="16" :lg="10" :xl="10">
+        asdf
+      </el-col>
+    </el-row>
     <!-- 视频网格展示 -->
     <el-row :gutter="20" justify="center">
-      <el-col 
+      <el-row 
         v-for="(video, index) in videos" 
         :key="index"
         :xs="24" 
-        :sm="24" 
-        :md="24" 
-        :lg="14" 
-        :xl="14"
+        :sm="20" 
+        :md="16" 
+        :lg="10" 
+        :xl="10"
         class="video-col"
       >
         <div class="video-wrapper">
@@ -40,7 +45,7 @@ const videos = [
             Your browser does not support the video tag.
           </video>
         </div>
-      </el-col>
+      </el-row>
     </el-row>
   </div>
 </template>
@@ -53,13 +58,13 @@ const videos = [
 }
 
 .video-col {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   display: flex;
   justify-content: center;
 }
 
 .video-wrapper {
-  width: auto;
+  width: 1375px;
   max-width: auto;
   border-radius: 8px;
   overflow: hidden;
@@ -68,7 +73,7 @@ const videos = [
 }
 
 .video-player {
-  width: auto;
+  width: 100%;
   height: auto;
   display: block;
   border-radius: 8px;
