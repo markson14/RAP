@@ -3,11 +3,12 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
-        "    journal={GitHub},",
-        "    year={2023}",
+        "@article{du2025raprealtimeaudiodrivenportrait,",
+        "         title={RAP: Real-time Audio-driven Portrait Animation with Video Diffusion Transformer},", 
+        "         author={Fangyu Du and Taiqing Li and Ziwei Zhang and Qian Qiao and Tan Yu",
+        "                 and Dingcheng Zhen and Xu Jia and Yang Yang and Shunshun Yin and Siyuan Liu},",
+        "         journal={arXiv preprint arXiv:2508.05115},",
+        "         year={2025}",
         "}",
       ],
     }
@@ -37,7 +38,7 @@ export default {
       </el-row>
       
       <el-row justify="center">
-        <el-col class='bibtex' :xs="24" :sm="20" :md="14" :lg="12" :xl="12" @click="copyVal()" >
+        <el-col class='bibtex' :xs="24" :sm="20" :md="14" :lg="10" :xl="10" @click="copyVal()" >
           <div style="text-align: center; color: var(--el-text-color-secondary); margin-top: 20px;">🖱️ Click here to copy BibTex.</div> 
           <el-row>
               <el-scrollbar style="margin: 0px 20px 5px 20px;">

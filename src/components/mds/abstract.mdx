@@ -1,3 +1,10 @@
 # Abstract
 
-Aute amet minim mollit nisi adipisicing cupidatat. Duis sit tempor consequat ea nisi qui consequat deserunt. Officia duis sit mollit dolor officia occaecat. Minim aute excepteur nostrud adipisicing magna nisi amet. Laborum aliqua ut ex cillum qui ipsum tempor officia sunt. Reprehenderit est ex sit fugiat laborum reprehenderit proident deserunt sint pariatur cillum voluptate irure. Voluptate laboris velit veniam exercitation sunt eiusmod occaecat velit fugiat ad.
+Audio-driven portrait animation aims to synthesize realistic and natural talking head videos from an input audio signal and a single reference image. 
+While existing methods achieve high-quality results by leveraging high-dimensional intermediate representations and explicitly modeling motion dynamics, their computational complexity renders them unsuitable for real-time deployment. 
+Real-time inference imposes stringent latency and memory constraints, often necessitating the use of highly compressed latent representations. 
+However, operating in such compact spaces hinders the preservation of fine-grained spatiotemporal details, thereby complicating audio-visual synchronization and increasing susceptibility to temporal error accumulation over long sequences. 
+To reconcile this trade-off, we propose **RAP** (**R**eal-time **A**udio-driven **P**ortrait animation), a unified framework for generating high-quality talking portraits under real-time constraints. 
+Specifically, RAP introduces a hybrid attention mechanism for fine-grained audio control, and a static-dynamic training-inference paradigm that avoids explicit motion supervision. 
+Through these techniques, RAP achieves precise audio-driven control, mitigates long-term temporal drift, and maintains high visual fidelity. 
+Extensive experiments demonstrate that RAP achieves state-of-the-art performance while operating under real-time constraints.

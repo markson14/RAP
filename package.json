@@ -28,8 +28,8 @@
     "vue3-compare-image": "^1.2.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue": "^5.2.4",
     "twikoo": "^1.6.40",
-    "vite": "^4.4.6"
+    "vite": "^6.3.5"
   }
 }
